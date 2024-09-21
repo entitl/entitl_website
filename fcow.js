@@ -75,7 +75,7 @@
             }
             .fewcents-powered-by {
                 position: absolute;
-                bottom: -20px;
+                bottom: -23px;
                 right: 10px;
                 font-size: 10px;
                 color: #666;
