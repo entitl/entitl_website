@@ -167,6 +167,15 @@
         }
     }
 
-    // Expose the injectPaywall function globally
-    window.fewcentsInjectPaywall = injectPaywall;
+    // Auto-initialize the paywall when the DOM is ready
+    document.addEventListener('DOMContentLoaded', function() {
+        injectPaywall('article-content', {
+            'publisher-logo-url': 'https://picsum.photos/100/50', // Random image for publisher logo
+            'title': 'Read this article for',
+            'flag': '🇺🇸',
+            'price': '$0.99',
+            'button-text': 'Access Article with Fewcents',
+            'consent-text': 'I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>, and consent to the collection and use of my data as described therein.'
+        });
+    });
 })();
