@@ -86,7 +86,8 @@
 
     <div class="container">
         <main class="main-content">
-            <article class="article-content">
+            <!-- This is the anchor div for the paywall -->
+            <div class="article-content">
                 <h1>Global Economy Faces Unprecedented Challenges in 2024</h1>
 
                 <div class="fc_content-preview">
@@ -107,7 +108,8 @@
                     <p>Education systems worldwide are also feeling the pressure to evolve. There's a growing emphasis on lifelong learning and skills-based education to prepare workers for the jobs of tomorrow. Coding, data analysis, and digital literacy are becoming as fundamental as reading and writing in many educational curricula.</p>
                     <p>As we navigate through 2024 and beyond, it's clear that the global economy will continue to evolve at a rapid pace. Those who can adapt to these changes, embrace new technologies, and navigate the complex geopolitical landscape will be best positioned to thrive in the economy of tomorrow. The challenges are significant, but so too are the opportunities for innovation, growth, and positive change.</p>
                 </div>
-            </article>
+            </div>
+            <!-- The paywall will be injected as a sister element here -->
         </main>
         <aside class="sidebar">
             <div class="ad">
@@ -128,7 +130,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             window.fewcentsInjectPaywall('article-content', {
-                'logo-url': 'https://fewcents.co/wp-content/uploads/2023/06/FewCents-Logo.svg',
+                'publisher-logo-url': 'https://picsum.photos/100/50', // Random image for publisher logo
                 'title': 'Read this article for',
                 'flag': '🇺🇸',
                 'price': '$0.99',

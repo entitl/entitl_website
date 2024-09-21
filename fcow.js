@@ -13,8 +13,9 @@
                 margin: 10px 0;
                 font-size: 14px;
                 text-align: center;
+                position: relative;
             }
-            .fewcents-logo {
+            .publisher-logo {
                 max-width: 100px;
                 margin-bottom: 10px;
             }
@@ -72,9 +73,22 @@
             .fewcents-consent label {
                 line-height: 1.3;
             }
+            .fewcents-powered-by {
+                position: absolute;
+                bottom: -20px;
+                right: 10px;
+                font-size: 10px;
+                color: #666;
+                display: flex;
+                align-items: center;
+            }
+            .fewcents-logo {
+                width: 60px;
+                margin-left: 5px;
+            }
         </style>
         <div class="fewcents-paywall">
-            <img class="fewcents-logo" src="" alt="FewCents Logo">
+            <img class="publisher-logo" src="" alt="Publisher Logo">
             <h2 class="fewcents-title"></h2>
             <div class="fewcents-offer">
                 <span class="fewcents-flag"></span>
@@ -85,6 +99,9 @@
             <div class="fewcents-consent">
                 <input type="checkbox" id="fewcents-consent-checkbox" checked>
                 <label for="fewcents-consent-checkbox"></label>
+            </div>
+            <div class="fewcents-powered-by">
+                Powered by <img class="fewcents-logo" src="https://images.volopay.com/h7g7e0fa5l74rlhlmxag73664tcs" alt="FewCents Logo">
             </div>
         </div>
     `;
@@ -102,8 +119,8 @@
         }
 
         updateContent() {
-            const logo = this.shadowRoot.querySelector('.fewcents-logo');
-            logo.src = this.getAttribute('logo-url');
+            const publisherLogo = this.shadowRoot.querySelector('.publisher-logo');
+            publisherLogo.src = this.getAttribute('publisher-logo-url');
 
             const title = this.shadowRoot.querySelector('.fewcents-title');
             title.textContent = this.getAttribute('title');
