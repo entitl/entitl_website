@@ -6,6 +6,7 @@
     <title>Content broker for hungry AI</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <style>
         * {
             margin: 0;
@@ -15,8 +16,8 @@
         }
 
         body {
-            background-color: #f0f4f8;
-            color: #1a365d;
+            background-color: #cbd5e1;
+            color: #0f172a;
         }
 
         /* Base button style used throughout the site */
@@ -31,12 +32,13 @@
             text-transform: uppercase;
             font-size: 0.9rem;
             transition: all 0.3s ease;
+            text-decoration: none;
         }
 
         .button:hover {
             background: #2c5282;
             transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(44,82,130,0.3);
+            box-shadow: 0 4px 15px rgba(30,41,59,0.3);
         }
     </style>
 </head>
@@ -44,7 +46,7 @@
   <style>
         /* Header/Hero section styles */
         header {
-            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            background: linear-gradient(135deg, #e5e9f0 0%, #cbd5e1 100%);
             position: relative;
             overflow: hidden;
         }
@@ -56,7 +58,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(45deg, rgba(49,130,206,0.05), transparent 70%);
+            background: linear-gradient(45deg, rgba(30,41,59,0.1), transparent 70%);
             pointer-events: none;
         }
 
@@ -89,7 +91,7 @@
             font-size: 32px;
             color: #1c00ff;
             text-decoration: none;
-            text-shadow: 0 0 10px rgba(49,130,206,0.3);
+            text-shadow: 0 0 10px rgba(30,41,59,0.1);
         }
 
         .nav-right {
@@ -104,7 +106,7 @@
         }
 
         .nav-links a {
-            color: #2d3748;
+            color: #1e293b;
             text-decoration: none;
             font-family: 'Roboto', Arial, sans-serif;
             position: relative;
@@ -145,11 +147,11 @@
             <a href="#" class="logo">Entitl</a>
             <div class="nav-right">
                 <nav class="nav-links">
-                    <a href="#">Features</a>
+                    <!-- <a href="#">Features</a>
                     <a href="#">Benefits</a>
-                    <a href="#">Pricing</a>
+                    <a href="#">Pricing</a> -->
                 </nav>
-                <button class="button">GET STARTED</button>
+                <a class="button" href="mailto:start@entitl.ai">GET STARTED NOW →</a>
             </div>
         </div>
     </header>
@@ -172,20 +174,20 @@
             color: #2c5282;
             line-height: 1.1;
             text-shadow:
-                -1px -1px 0 #f7fafc,
-                1px -1px 0 #f7fafc,
-                -1px 1px 0 #f7fafc,
-                1px 1px 0 #f7fafc,
+                -1px -1px 0 #e5e9f0,
+                1px -1px 0 #e5e9f0,
+                -1px 1px 0 #e5e9f0,
+                1px 1px 0 #e5e9f0,
                 0 0 20px rgba(44,82,130,0.5);
             background: linear-gradient(45deg, #2c5282, #2b6cb0);
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            -webkit-text-fill-color: #2d3748;
         }
 
         .hero p {
             font-size: 1.5rem;
             margin-bottom: 3rem;
-            color: #4a5568;
+            color: #334155;
             line-height: 1.4;
             max-width: 600px;
         }
@@ -207,18 +209,17 @@
     </style>
 
     <div class="hero">
-        <h1>Scale Your AI with Licensed Content</h1>
-        <p>The first marketplace that connects AI companies with publishers, enabling legal and scalable content licensing for training and development.</p>
+        <h1>Web Content For Your AI</h1>
+        <p>Global marketplace that connects AI Developers with Web Publishers & Social Media. We enable scalable content licensing for personalization & model training.</p>
         <div class="cta-buttons">
-            <button class="button">START LICENSING →</button>
-            <button class="button" style="background: transparent; border: 2px solid #1c00ff; color: #1c00ff">PUBLISH CONTENT</button>
+            <a class="button" href="mailto:start@entitl.ai">START LICENSING →</a>
         </div>
     </div>
 
     <style>
         /* Features section styles */
         .features {
-            background: linear-gradient(to bottom, #f0f4f8 0%, #edf2f7 100%);
+            background: linear-gradient(to bottom, #cbd5e1 0%, #cbd5e1 100%);
             position: relative;
             padding: 8rem 0;
         }
@@ -264,7 +265,7 @@
             font-size: 2.5rem;
             margin-bottom: 5rem;
             color: #1c00ff;
-            text-shadow: 0 0 15px rgba(49, 130, 206, 0.3);
+            /* text-shadow: 0 0 15px rgba(49, 130, 206, 0.3); */
             position: relative;
         }
 
@@ -342,7 +343,7 @@
         }
 
         .feature-card p {
-            color: #4a5568;
+            color: #334155;
             line-height: 1.5;
         }
 
@@ -366,14 +367,14 @@
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                     </svg>
                     <h3>Legal Compliance</h3>
-                    <p>Ensure your AI training data is properly licensed and compliant with all regulations.</p>
+                    <p>Ensure your AI data is properly licensed and compliant with all regulations.</p>
                 </div>
                 <div class="feature-card">
                     <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
                     </svg>
-                    <h3>Instant Access</h3>
-                    <p>Get immediate access to high-quality content from verified publishers.</p>
+                    <h3>Industry Specific API</h3>
+                    <p>Access data feeds from verified publishers in your industry.</p>
                 </div>
                 <div class="feature-card">
                     <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -389,7 +390,7 @@
     <style>
         /* Benefits section styles */
         .benefits {
-            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            background: linear-gradient(135deg, #e5e9f0 0%, #cbd5e1 100%);
             position: relative;
             padding: 8rem 0;
         }
@@ -483,7 +484,7 @@
             font-family: 'Anton', 'Impact', 'Arial Black', sans-serif;
             color: #1c00ff;
             font-size: 2rem;
-            text-shadow: 0 0 15px rgba(49, 130, 206, 0.2);
+            /* text-shadow: 0 0 15px rgba(49, 130, 206, 0.2); */
             margin-bottom: 2rem;
         }
 
@@ -497,7 +498,7 @@
             align-items: center;
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
-            color: #4a5568;
+            color: #334155;
             padding: 1rem;
             background: rgba(49, 130, 206, 0.03);
             border-radius: 8px;
@@ -608,7 +609,7 @@
     <style>
         /* CTA section styles */
         .cta-section {
-            background: linear-gradient(180deg, #f0f4f8 0%, #edf2f7 100%);
+            background: linear-gradient(180deg, #cbd5e1 0%, #cbd5e1 100%);
             position: relative;
             padding: 8rem 0;
             text-align: center;
@@ -686,7 +687,7 @@
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
             color: #1c00ff;
-            text-shadow: 0 0 20px rgba(49, 130, 206, 0.3);
+            /* text-shadow: 0 0 20px rgba(49, 130, 206, 0.3); */
             position: relative;
             display: inline-block;
         }
@@ -712,7 +713,7 @@
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
-            color: #4a5568;
+            color: #334155;
             line-height: 1.6;
         }
 
@@ -766,16 +767,16 @@
 
     <section class="cta-section">
         <div class="cta-container">
-            <h2>Ready to Transform Your AI Training?</h2>
-            <p>Join the future of content licensing for AI. Start accessing or publishing content today.</p>
-            <button class="button">Get Started Now →</button>
+            <h2>Ready To Personalize Your AI?</h2>
+            <p>The future of content licensing. Start accessing web content today.</p>
+            <a class="button" href="mailto:start@entitl.ai">Get Started Now →</a>
         </div>
     </section>
 
     <style>
         /* Footer section styles */
         .footer {
-            background: linear-gradient(0deg, #f0f4f8 0%, #edf2f7 100%);
+            background: linear-gradient(0deg, #cbd5e1 0%, #cbd5e1 100%);
             position: relative;
             padding: 6rem 2rem 2rem;
         }
@@ -818,7 +819,7 @@
         }
 
         .footer-description {
-            color: #718096;
+            color: #475569;
             margin-top: 1rem;
             font-size: 0.95rem;
             line-height: 1.5;
@@ -875,7 +876,7 @@
         }
 
         .footer-column ul li a {
-            color: #718096;
+            color: #475569;
             text-decoration: none;
             font-size: 0.95rem;
             transition: all 0.3s ease;
@@ -923,7 +924,7 @@
         }
 
         .footer-bottom p {
-            color: #718096;
+            color: #475569;
             font-size: 0.9rem;
         }
 
@@ -962,34 +963,34 @@
             </div>
 
             <div class="footer-column">
-                <h3>Platform</h3>
+                <!-- <h3>Platform</h3>
                 <ul>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Documentation</a></li>
-                </ul>
+                </ul> -->
             </div>
 
             <div class="footer-column">
-                <h3>Company</h3>
+                <!-- <h3>Company</h3>
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
-                </ul>
+                </ul> -->
             </div>
 
             <div class="footer-column">
-                <h3>Legal</h3>
+                <!-- <h3>Legal</h3>
                 <ul>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Licensing Terms</a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2024 ContentLicense.ai. All rights reserved.</p>
+            <p>© 2025 All Rights Reserved.</p>
         </div>
     </footer>
 
