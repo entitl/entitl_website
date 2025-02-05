@@ -1,20 +1,20 @@
-<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background shape -->
-    <rect x="50" y="50" width="400" height="300" fill="#e5e9f0" rx="20"/>
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background shape - adjusted position and size -->
+    <rect x="160" y="112" width="1280" height="675" fill="#e5e9f0" rx="20"/>
 
-    <!-- Decorative elements -->
-    <circle cx="250" cy="200" r="80" fill="#1c00ff" opacity="0.1"/>
-    <circle cx="250" cy="200" r="60" fill="#1c00ff" opacity="0.2"/>
-    <circle cx="250" cy="200" r="40" fill="#1c00ff" opacity="0.3"/>
+    <!-- Decorative elements - centered in new dimensions -->
+    <circle cx="800" cy="450" r="180" fill="#1c00ff" opacity="0.1"/>
+    <circle cx="800" cy="450" r="135" fill="#1c00ff" opacity="0.2"/>
+    <circle cx="800" cy="450" r="90" fill="#1c00ff" opacity="0.3"/>
 
-    <!-- Abstract lines -->
-    <path d="M100 150 L400 150" stroke="#1c00ff" stroke-width="2" opacity="0.5"/>
-    <path d="M100 200 L400 200" stroke="#1c00ff" stroke-width="2" opacity="0.5"/>
-    <path d="M100 250 L400 250" stroke="#1c00ff" stroke-width="2" opacity="0.5"/>
+    <!-- Abstract lines - adjusted width and position -->
+    <path d="M320 337 L1280 337" stroke="#1c00ff" stroke-width="4" opacity="0.5"/>
+    <path d="M320 450 L1280 450" stroke="#1c00ff" stroke-width="4" opacity="0.5"/>
+    <path d="M320 562 L1280 562" stroke="#1c00ff" stroke-width="4" opacity="0.5"/>
 
-    <!-- Dots -->
-    <circle cx="150" cy="150" r="5" fill="#1c00ff"/>
-    <circle cx="350" cy="150" r="5" fill="#1c00ff"/>
-    <circle cx="150" cy="250" r="5" fill="#1c00ff"/>
-    <circle cx="350" cy="250" r="5" fill="#1c00ff"/>
+    <!-- Dots - adjusted position -->
+    <circle cx="480" cy="337" r="10" fill="#1c00ff"/>
+    <circle cx="1120" cy="337" r="10" fill="#1c00ff"/>
+    <circle cx="480" cy="562" r="10" fill="#1c00ff"/>
+    <circle cx="1120" cy="562" r="10" fill="#1c00ff"/>
 </svg>
