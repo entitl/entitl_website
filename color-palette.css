@@ -1,0 +1,26 @@
+:root {
+    /* Primary Colors */
+    --primary: #1c00ff;
+    --primary-hover: #2c5282;
+
+    /* Background Colors */
+    --background-primary: #F8F9FF;
+    --background-white: #FFFFFF;
+
+    /* Text Colors */
+    --text-primary: #0f172a;
+    --text-secondary: #1e293b;
+    --text-tertiary: #334155;
+    --text-quaternary: #475569;
+
+    /* Overlay/Shadow Colors */
+    --overlay-light: rgba(49, 130, 206, 0.05);
+    --overlay-medium: rgba(49, 130, 206, 0.1);
+    --overlay-dark: rgba(30, 41, 59, 0.1);
+    --shadow-color: rgba(30, 41, 59, 0.3);
+    --shadow-button: rgba(49, 130, 206, 0.3);
+
+    /* Gradient Components */
+    --gradient-overlay: rgba(255, 255, 255, 0.2);
+    --gradient-transparent: transparent;
+}
