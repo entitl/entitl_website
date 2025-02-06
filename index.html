@@ -933,7 +933,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             position: relative;
-            display: inline-block;
+            display: block;
         }
 
         .footer-column h3::after {
@@ -962,7 +962,16 @@
             transition: all 0.3s ease;
             display: inline-block;
             position: relative;
-            padding-left: 15px;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .footer-column ul li a svg {
+            width: 16px;
+            height: 16px;
+            transition: all 0.3s ease;
         }
 
         .footer-column ul li a:hover {
@@ -970,12 +979,17 @@
             transform: translateX(5px);
         }
 
-        .footer-column ul li a::before {
+        /* .footer-column ul li a::before {
             content: '→';
             position: absolute;
             left: 0;
             opacity: 0;
             transition: all 0.3s ease;
+        } */
+
+        /* Update the arrow positioning for social links */
+        .footer-column ul li a.social-link::before {
+            display: none;
         }
 
         .footer-column ul li a:hover::before {
@@ -1027,10 +1041,23 @@
                 max-width: none;
             }
 
+            .footer-column h3 {
+                text-align: center;
+            }
+
             .footer-column h3::after,
             .footer .logo::after {
                 left: 50%;
                 transform: translateX(-50%);
+            }
+
+            .footer-column ul li a {
+                justify-content: center;
+            }
+
+            .footer-column ul li a svg {
+                width: 18px;
+                height: 18px;
             }
         }
     </style>
@@ -1039,7 +1066,7 @@
         <div class="footer-content">
             <div class="footer-column">
                 <a href="#" class="logo">Entitl</a>
-                <p class="footer-description">Revolutionizing content licensing for the AI industry.</p>
+                <p class="footer-description">Revolutionizing content licensing for AI Developers.</p>
             </div>
 
             <div class="footer-column">
@@ -1052,21 +1079,29 @@
             </div>
 
             <div class="footer-column">
-                <!-- <h3>Company</h3>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul> -->
+              <h3>Legal</h3>
+              <ul>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Licensing Terms</a></li>
+              </ul>
             </div>
 
             <div class="footer-column">
-                <!-- <h3>Legal</h3>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Licensing Terms</a></li>
-                </ul> -->
+              <h3>Company</h3>
+              <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/entitl/" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                  </li>
+              </ul>
             </div>
         </div>
         <div class="footer-bottom">
