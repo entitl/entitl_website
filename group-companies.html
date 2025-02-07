@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://entitl.ai/js/gtag.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Companies - Entitl</title>
+    <meta property="og:site_name" content="Entitl">
+    <meta property="og:title" content="Group Companies - Entitl"/>
+    <meta property="og:description" content="Information about Entitl's group companies and corporate structure."/>
+    <meta name="author" property="og:author" content="Entitl"/>
+    <meta property="og:type" content="website"/>
+    <meta itemprop="image" property="og:image" content="https://entitl.ai/image/og.png"/>
+    <meta property="og:url" content="https://entitl.ai/group-companies.html"/>
+    <link rel="stylesheet" href="./css/color-palette.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="https://entitl.ai/favicon.svg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--background-primary);
+            color: var(--text-primary);
+        }
+
+        .nav-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo {
+            font-family: 'Anton', 'Impact', 'Arial Black', sans-serif;
+            font-size: 32px;
+            color: var(--primary);
+            text-decoration: none;
+            text-shadow: 0 0 10px var(--overlay-dark);
+        }
+
+        .content-container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--overlay-medium);
+        }
+
+        .content-header h1 {
+            font-family: 'Anton', 'Impact', 'Arial Black', sans-serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .company-content {
+            color: var(--text-tertiary);
+            line-height: 1.6;
+        }
+
+        .structure-diagram {
+            width: 100%;
+            margin-bottom: 3rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .structure-diagram svg {
+            width: 100%;
+            height: auto;
+            max-height: 500px;
+        }
+
+        .company-section {
+            margin-bottom: 2.5rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            border: 1px solid var(--overlay-light);
+        }
+
+        .company-section h2 {
+            font-family: 'Anton', 'Impact', 'Arial Black', sans-serif;
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--overlay-light);
+        }
+
+        .company-details {
+            margin-left: 1rem;
+        }
+
+        .company-details p {
+            margin-bottom: 0.5rem;
+        }
+
+        .subsidiary-indicator {
+            font-size: 0.9rem;
+            color: var(--text-quaternary);
+            margin-bottom: 0.5rem;
+        }
+
+        .company-id {
+            font-family: monospace;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .content-container {
+                margin: 1rem;
+                padding: 1rem;
+            }
+
+            .content-header h1 {
+                font-size: 2rem;
+            }
+
+            .company-section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="/" class="logo">Entitl</a>
+        </div>
+    </header>
+
+    <div class="content-container">
+        <div class="content-header">
+            <h1>Group Companies</h1>
+            <p>Corporate Structure and Information</p>
+        </div>
+
+        <div class="structure-diagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+                <!-- Definitions for reuse -->
+                <defs>
+                    <!-- Gradient for boxes -->
+                    <linearGradient id="boxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#2d2d9e;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#4444ff;stop-opacity:1" />
+                    </linearGradient>
+
+                    <!-- Shadow filter -->
+                    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+                        <feOffset dx="2" dy="2" result="offsetblur" />
+                        <feComponentTransfer>
+                            <feFuncA type="linear" slope="0.3" />
+                        </feComponentTransfer>
+                        <feMerge>
+                            <feMergeNode />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                </defs>
+
+                <!-- Parent Company -->
+                <g transform="translate(300,50)">
+                    <rect x="0" y="0" width="200" height="100" rx="10"
+                          fill="url(#boxGradient)"
+                          filter="url(#shadow)" />
+                    <text x="100" y="30" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="16" font-weight="bold">Entitl Inc.</text>
+                    <text x="100" y="50" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="14">USA</text>
+                    <text x="100" y="70" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="12">EIN: 38-4332624</text>
+                </g>
+
+                <!-- Connecting Lines -->
+                <path d="M 400,150 L 400,200 L 200,200 L 200,250"
+                      stroke="#4444ff"
+                      stroke-width="2"
+                      fill="none" />
+                <path d="M 400,150 L 400,200 L 600,200 L 600,250"
+                      stroke="#4444ff"
+                      stroke-width="2"
+                      fill="none" />
+
+                <!-- Singapore Subsidiary -->
+                <g transform="translate(100,250)">
+                    <rect x="0" y="0" width="200" height="100" rx="10"
+                          fill="url(#boxGradient)"
+                          filter="url(#shadow)" />
+                    <text x="100" y="30" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="16" font-weight="bold">Entitl Pte. Ltd.</text>
+                    <text x="100" y="50" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="14">Singapore</text>
+                    <text x="100" y="70" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="12">UEN: 202500874R</text>
+                </g>
+
+                <!-- India Subsidiary -->
+                <g transform="translate(500,250)">
+                    <rect x="0" y="0" width="200" height="100" rx="10"
+                          fill="url(#boxGradient)"
+                          filter="url(#shadow)" />
+                    <text x="100" y="30" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="16" font-weight="bold">Entitl Data Private Limited</text>
+                    <text x="100" y="50" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="14">India</text>
+                </g>
+
+                <!-- 100% Ownership Labels -->
+                <text x="250" y="220" text-anchor="middle" fill="#4444ff" font-family="Roboto, sans-serif" font-size="12">100%</text>
+                <text x="550" y="220" text-anchor="middle" fill="#4444ff" font-family="Roboto, sans-serif" font-size="12">100%</text>
+            </svg>
+        </div>
+
+        <div class="company-content">
+            <div class="company-section">
+                <h2>Parent Company</h2>
+                <div class="company-details">
+                    <p><strong>Company Name:</strong> Entitl Inc.</p>
+                    <p><strong>EIN:</strong> <span class="company-id">38-4332624</span></p>
+                    <p><strong>Jurisdiction:</strong> United States of America</p>
+                </div>
+            </div>
+
+            <div class="company-section">
+                <h2>Singapore Subsidiary</h2>
+                <div class="company-details">
+                    <p class="subsidiary-indicator">Wholly owned subsidiary of Entitl Inc.</p>
+                    <p><strong>Company Name:</strong> Entitl Pte. Ltd.</p>
+                    <p><strong>UEN:</strong> <span class="company-id">202500874R</span></p>
+                    <p><strong>Jurisdiction:</strong> Singapore</p>
+                </div>
+            </div>
+
+            <div class="company-section">
+                <h2>India Subsidiary</h2>
+                <div class="company-details">
+                    <p class="subsidiary-indicator">Wholly owned subsidiary of Entitl Inc.</p>
+                    <p><strong>Company Name:</strong> Entitl Data Private Limited</p>
+                    <p><strong>Jurisdiction:</strong> India</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
