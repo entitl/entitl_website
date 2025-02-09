@@ -84,12 +84,21 @@
             background: rgba(255, 255, 255, 0.02);
             border-radius: 12px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Add this to maintain aspect ratio */
+            position: relative;
+            padding-bottom: 62.5%; /* 500/800 = 0.625 = 62.5% */
+            height: 0;
+            overflow: hidden;
         }
 
-        .structure-diagram svg {
+        .structure-diagram object,
+        .structure-diagram img {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: auto;
-            max-height: 500px;
+            height: 100%;
+            object-fit: contain;
         }
 
         .company-section {
@@ -161,9 +170,9 @@
         </div>
 
         <div class="structure-diagram">
-          <object data="corp-structure.svg" type="image/svg+xml" width="800" height="500">
-              <img src="./image/corp-structure.svg" alt="Entitl Corporate Structure" width="800" height="500">
-          </object>
+            <object data="corp-structure.svg" type="image/svg+xml">
+                <img src="./image/corp-structure.svg" alt="Entitl Corporate Structure">
+            </object>
         </div>
 
         <div class="company-content">
