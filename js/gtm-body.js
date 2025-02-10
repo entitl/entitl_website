@@ -4,7 +4,7 @@ export const initGTMBody = (containerId) => {
     const noscript = document.createElement('noscript');
     const iframe = document.createElement('iframe');
 
-    iframe.src = 'https://www.googletagmanager.com/ns.html?id=${containerId}';
+    iframe.src = `https://www.googletagmanager.com/ns.html?id=${containerId}`;
     iframe.height = '0';
     iframe.width = '0';
     iframe.style.display = 'none';
