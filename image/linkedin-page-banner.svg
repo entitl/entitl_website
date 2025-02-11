@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1128 191">
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#F8F9FF"/>
+    </linearGradient>
+
+    <linearGradient id="pipeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1c00ff"/>
+      <stop offset="100%" style="stop-color:#2c5282"/>
+    </linearGradient>
+
+    <!-- Data flow pattern -->
+    <pattern id="dataPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M0 25h50" stroke="#1c00ff" stroke-width="0.5" opacity="0.1"/>
+      <path d="M25 0v50" stroke="#1c00ff" stroke-width="0.5" opacity="0.1"/>
+      <circle cx="25" cy="25" r="2" fill="#1c00ff" opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <!-- Main background -->
+  <rect width="1128" height="191" fill="url(#headerGradient)"/>
+
+  <!-- Data pattern overlay -->
+  <rect width="1128" height="191" fill="url(#dataPattern)"/>
+
+  <!-- API/Pipeline visual elements -->
+  <!-- Horizontal data pipes -->
+  <g opacity="0.15">
+    <path d="M0 30 L1128 30" stroke="#1c00ff" stroke-width="1" stroke-dasharray="4,4"/>
+    <path d="M0 60 L1128 60" stroke="#1c00ff" stroke-width="1" stroke-dasharray="4,4"/>
+    <path d="M0 150 L1128 150" stroke="#1c00ff" stroke-width="1" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Data flow animations -->
+  <g opacity="0.3">
+    <path d="M200 40 C 300 40, 400 120, 500 120 S 700 40, 800 40"
+          fill="none" stroke="url(#pipeGradient)" stroke-width="2"/>
+    <path d="M300 160 C 400 160, 500 80, 600 80 S 800 160, 900 160"
+          fill="none" stroke="url(#pipeGradient)" stroke-width="2"/>
+  </g>
+
+  <!-- Connection nodes -->
+  <g>
+    <circle cx="500" cy="120" r="4" fill="#1c00ff" opacity="0.4"/>
+    <circle cx="600" cy="80" r="4" fill="#1c00ff" opacity="0.4"/>
+    <circle cx="700" cy="160" r="4" fill="#1c00ff" opacity="0.4"/>
+    <circle cx="800" cy="40" r="4" fill="#1c00ff" opacity="0.4"/>
+  </g>
+
+  <!-- API endpoint boxes -->
+  <g opacity="0.2">
+    <rect x="850" y="20" width="40" height="20" rx="4" fill="#1c00ff"/>
+    <rect x="750" y="140" width="40" height="20" rx="4" fill="#1c00ff"/>
+    <rect x="650" y="60" width="40" height="20" rx="4" fill="#1c00ff"/>
+  </g>
+
+  <!-- Binary data streams -->
+  <g fill="#1c00ff" opacity="0.15" font-family="monospace" font-size="8">
+    <text x="900" y="50">10110</text>
+    <text x="800" y="100">01001</text>
+    <text x="850" y="150">11010</text>
+  </g>
+
+  <!-- Main text content -->
+  <g transform="translate(200, 80)">
+    <text font-family="Anton, Impact, Arial Black" font-size="42" fill="#1c00ff">
+      <tspan x="0" y="0">License Web Content For Hungry AI</tspan>
+    </text>
+    <path d="M0 20 L60 20" stroke="#1c00ff" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- Additional data flow elements -->
+  <g transform="translate(600, 120)">
+    <path d="M0 0 L20 20 L40 0" fill="none" stroke="#1c00ff" stroke-width="1" opacity="0.3"/>
+    <path d="M60 0 L80 20 L100 0" fill="none" stroke="#1c00ff" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- Safe zone for profile picture -->
+  <rect x="0" y="0" width="191" height="191" fill="none" stroke="none"/>
+</svg>
