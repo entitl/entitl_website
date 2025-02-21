@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+    <!-- Original baseline SVG content -->
     <!-- Container with border -->
     <rect x="20" y="20" width="560" height="360" rx="10" fill="#F8F9FF" stroke="#1c00ff" stroke-width="1.5" opacity="0.3"/>
 
@@ -11,58 +13,25 @@
         <g id="connections">
             <!-- Mobile to Hub connection -->
             <line x1="200" y1="200" x2="280" y2="200" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" />
+
+            <!-- Adding the three boxes from other connections to this line -->
+            <rect x="220" y="185" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
+            <rect x="235" y="185" width="15" height="15" fill="#800020" opacity="0.9"/>
+            <rect x="250" y="185" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
             <!-- Hub to Publishers connections -->
-            <line x1="400" y1="180" x2="500" y2="72" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4">
-                <!-- Checkered box on connection line with teal and red -->
-                <g transform="translate(440, 130)">
-                    <rect x="0" y="0" width="30" height="30" fill="#1c00ff" opacity="0.1"/>
-                    <rect x="0" y="0" width="10" height="10" fill="#ff6b6b" opacity="0.9"/>
-                    <rect x="10" y="0" width="10" height="10" fill="#4ecdc4" opacity="0.4"/>
-                    <rect x="20" y="0" width="10" height="10" fill="#ff6b6b" opacity="0.9"/>
+            <line x1="400" y1="180" x2="500" y2="72" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4"/>
+            <line x1="400" y1="200" x2="500" y2="200" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4"/>
+            <line x1="400" y1="220" x2="500" y2="312" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4"/>
 
-                    <rect x="0" y="10" width="10" height="10" fill="#4ecdc4" opacity="0.4"/>
-                    <rect x="10" y="10" width="10" height="10" fill="#ff6b6b" opacity="0.9"/>
-                    <rect x="20" y="10" width="10" height="10" fill="#4ecdc4" opacity="0.4"/>
+            <!-- Adding single boxes from each logo's pattern onto the connection lines -->
+            <!-- Box from Bloomberg pattern (top-right orange box) -->
+            <rect x="440" y="120" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
 
-                    <rect x="0" y="20" width="10" height="10" fill="#ff6b6b" opacity="0.9"/>
-                    <rect x="10" y="20" width="10" height="10" fill="#4ecdc4" opacity="0.4"/>
-                    <rect x="20" y="20" width="10" height="10" fill="#ff6b6b" opacity="0.9"/>
-                </g>
-            </line>
-            <line x1="400" y1="200" x2="500" y2="200" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4">
-                <!-- Checkered box on connection line with burgundy shades -->
-                <g transform="translate(440, 180)">
-                    <rect x="0" y="0" width="30" height="30" fill="#1c00ff" opacity="0.1"/>
-                    <rect x="0" y="0" width="10" height="10" fill="#800020" opacity="0.9"/>
-                    <rect x="10" y="0" width="10" height="10" fill="#8B0000" opacity="0.4"/>
-                    <rect x="20" y="0" width="10" height="10" fill="#800020" opacity="0.9"/>
+            <!-- Box from WSJ pattern (middle burgundy box) -->
+            <rect x="440" y="192" width="15" height="15" fill="#800020" opacity="0.9"/>
 
-                    <rect x="0" y="10" width="10" height="10" fill="#8B0000" opacity="0.4"/>
-                    <rect x="10" y="10" width="10" height="10" fill="#800020" opacity="0.9"/>
-                    <rect x="20" y="10" width="10" height="10" fill="#8B0000" opacity="0.4"/>
-
-                    <rect x="0" y="20" width="10" height="10" fill="#800020" opacity="0.9"/>
-                    <rect x="10" y="20" width="10" height="10" fill="#8B0000" opacity="0.4"/>
-                    <rect x="20" y="20" width="10" height="10" fill="#800020" opacity="0.9"/>
-                </g>
-            </line>
-            <line x1="400" y1="220" x2="500" y2="312" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4">
-                <!-- Checkered box on connection line with green shades -->
-                <g transform="translate(440, 250)">
-                    <rect x="0" y="0" width="30" height="30" fill="#1c00ff" opacity="0.1"/>
-                    <rect x="0" y="0" width="10" height="10" fill="#228B22" opacity="0.9"/>
-                    <rect x="10" y="0" width="10" height="10" fill="#2E8B57" opacity="0.4"/>
-                    <rect x="20" y="0" width="10" height="10" fill="#228B22" opacity="0.9"/>
-
-                    <rect x="0" y="10" width="10" height="10" fill="#2E8B57" opacity="0.4"/>
-                    <rect x="10" y="10" width="10" height="10" fill="#228B22" opacity="0.9"/>
-                    <rect x="20" y="10" width="10" height="10" fill="#2E8B57" opacity="0.4"/>
-
-                    <rect x="0" y="20" width="10" height="10" fill="#228B22" opacity="0.9"/>
-                    <rect x="10" y="20" width="10" height="10" fill="#2E8B57" opacity="0.4"/>
-                    <rect x="20" y="20" width="10" height="10" fill="#228B22" opacity="0.9"/>
-                </g>
-            </line>
+            <!-- Box from Reuters pattern (bottom-right green box) -->
+            <rect x="440" y="260" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
         </g>
 
         <!-- Connection Points -->
@@ -120,38 +89,36 @@
 
         <!-- Bloomberg-style Logo with 3x3 Checkered Pattern -->
         <g transform="translate(500, 50)">
-            <!-- 3x3 Grid for Bloomberg -->
             <rect x="0" y="0" width="45" height="45" fill="#1c00ff" opacity="0.1"/>
-            <rect x="0" y="0" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="15" y="0" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="30" y="0" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
+            <rect x="0" y="0" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
+            <rect x="15" y="0" width="15" height="15" fill="#2E5077" opacity="0.9"/>
+            <rect x="30" y="0" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
 
-            <rect x="0" y="15" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="15" y="15" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="30" y="15" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
+            <rect x="0" y="15" width="15" height="15" fill="#2E5077" opacity="0.9"/>
+            <rect x="15" y="15" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
+            <rect x="30" y="15" width="15" height="15" fill="#2E5077" opacity="0.9"/>
 
-            <rect x="0" y="30" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="15" y="30" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="30" y="30" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
+            <rect x="0" y="30" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
+            <rect x="15" y="30" width="15" height="15" fill="#2E5077" opacity="0.9"/>
+            <rect x="30" y="30" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
 
             <text x="22.5" y="30" text-anchor="middle" dominantBaseline="middle" fill="white" font-family="Roboto" font-size="28" font-weight="bold">B</text>
         </g>
 
         <!-- WSJ-style Logo with 3x3 Checkered Pattern -->
         <g transform="translate(500, 177)">
-            <!-- 3x3 Grid for WSJ -->
             <rect x="0" y="0" width="45" height="45" fill="#1c00ff" opacity="0.1"/>
-            <rect x="0" y="0" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="15" y="0" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="30" y="0" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
+            <rect x="0" y="0" width="15" height="15" fill="#800020" opacity="0.9"/>
+            <rect x="15" y="0" width="15" height="15" fill="#9A1750" opacity="0.9"/>
+            <rect x="30" y="0" width="15" height="15" fill="#800020" opacity="0.9"/>
 
-            <rect x="0" y="15" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="15" y="15" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="30" y="15" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
+            <rect x="0" y="15" width="15" height="15" fill="#9A1750" opacity="0.9"/>
+            <rect x="15" y="15" width="15" height="15" fill="#800020" opacity="0.9"/>
+            <rect x="30" y="15" width="15" height="15" fill="#9A1750" opacity="0.9"/>
 
-            <rect x="0" y="30" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="15" y="30" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="30" y="30" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
+            <rect x="0" y="30" width="15" height="15" fill="#800020" opacity="0.9"/>
+            <rect x="15" y="30" width="15" height="15" fill="#9A1750" opacity="0.9"/>
+            <rect x="30" y="30" width="15" height="15" fill="#800020" opacity="0.9"/>
 
             <text x="22.5" y="25" text-anchor="middle" dominantBaseline="middle" fill="white" font-family="Roboto" font-size="18" font-weight="bold">WSJ</text>
             <line x1="10" y1="32" x2="35" y2="32" stroke="white" stroke-width="1"/>
@@ -159,19 +126,18 @@
 
         <!-- Reuters Logo with 3x3 Checkered Pattern and R symbol -->
         <g transform="translate(500, 290)">
-            <!-- 3x3 Grid for Reuters -->
             <rect x="0" y="0" width="45" height="45" fill="#1c00ff" opacity="0.1"/>
-            <rect x="0" y="0" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="15" y="0" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="30" y="0" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
+            <rect x="0" y="0" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
+            <rect x="15" y="0" width="15" height="15" fill="#3B9778" opacity="0.9"/>
+            <rect x="30" y="0" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
 
-            <rect x="0" y="15" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="15" y="15" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="30" y="15" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
+            <rect x="0" y="15" width="15" height="15" fill="#3B9778" opacity="0.9"/>
+            <rect x="15" y="15" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
+            <rect x="30" y="15" width="15" height="15" fill="#3B9778" opacity="0.9"/>
 
-            <rect x="0" y="30" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
-            <rect x="15" y="30" width="15" height="15" fill="#1c00ff" opacity="0.4"/>
-            <rect x="30" y="30" width="15" height="15" fill="#1c00ff" opacity="0.9"/>
+            <rect x="0" y="30" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
+            <rect x="15" y="30" width="15" height="15" fill="#3B9778" opacity="0.9"/>
+            <rect x="30" y="30" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
 
             <text x="22.5" y="30" text-anchor="middle" dominantBaseline="middle" fill="white" font-family="Roboto" font-size="28" font-weight="bold">ℝ</text>
         </g>
