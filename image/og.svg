@@ -17,12 +17,6 @@
             <line x1="400" y1="220" x2="500" y2="312" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4"/>
         </g>
 
-        <!-- Single API Label -->
-        <g transform="translate(240, 185)">
-            <rect x="-40" y="-10" width="80" height="20" fill="#F8F9FF"/>
-            <text x="0" y="5" font-family="Roboto" font-size="12" fill="#1c00ff" text-anchor="middle">Single API</text>
-        </g>
-
         <!-- Connection Points -->
         <circle cx="200" cy="200" r="4" fill="#1c00ff" />
         <circle cx="280" cy="200" r="4" fill="#1c00ff" />
