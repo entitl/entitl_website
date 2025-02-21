@@ -35,7 +35,7 @@
 
             <!-- App Icon -->
             <rect x="16" y="16" width="24" height="24" rx="6" fill="#1c00ff"/>
-            <text x="28" y="33" text-anchor="middle" fill="white" font-family="Roboto" font-size="14" font-weight="bold">$</text>
+            <text x="28" y="33" text-anchor="middle" fill="white" font-family="Roboto" font-size="14" font-weight="bold">AI</text>
 
             <!-- Notification Content -->
             <text x="52" y="28" fill="white" font-family="system-ui, -apple-system" font-size="12" font-weight="600">Personal Feed</text>
