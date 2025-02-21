@@ -10,32 +10,23 @@
         <!-- Connection lines - solid for API, dashed for publishers -->
         <g id="connections">
             <!-- Mobile to Hub connection -->
-            <line x1="200" y1="200" x2="280" y2="200" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" />
+            <line x1="190" y1="200" x2="290" y2="200" stroke="#0000FF" stroke-width="1.5" />
 
             <!-- Adding the three boxes from other connections to this line -->
-            <rect x="220" y="185" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
-            <rect x="235" y="185" width="15" height="15" fill="#800020" opacity="0.9"/>
-            <rect x="250" y="185" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
+            <rect x="220" y="192.5" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
+            <rect x="235" y="192.5" width="15" height="15" fill="#800020" opacity="0.9"/>
+            <rect x="250" y="192.5" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
+
             <!-- Hub to Publishers connections -->
-            <line x1="400" y1="180" x2="500" y2="72" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4"/>
-            <line x1="400" y1="200" x2="500" y2="200" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4"/>
-            <line x1="400" y1="220" x2="500" y2="312" stroke="#1c00ff" stroke-width="1.5" opacity="0.6" stroke-dasharray="4,4"/>
+            <line x1="410" y1="180" x2="500" y2="72" stroke="#0000FF" stroke-width="1.5"/>
+            <line x1="410" y1="200" x2="500" y2="200" stroke="#0000FF" stroke-width="1.5"/>
+            <line x1="410" y1="220" x2="500" y2="312" stroke="#0000FF" stroke-width="1.5"/>
 
             <!-- Adding single boxes from each logo's pattern onto the connection lines -->
-            <rect x="440" y="120" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
-            <rect x="440" y="192" width="15" height="15" fill="#800020" opacity="0.9"/>
-            <rect x="440" y="260" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
+            <rect x="440" y="127" width="15" height="15" fill="#1E3D59" opacity="0.9"/>
+            <rect x="440" y="192.5" width="15" height="15" fill="#800020" opacity="0.9"/>
+            <rect x="440" y="252" width="15" height="15" fill="#2A7F62" opacity="0.9"/>
         </g>
-
-        <!-- Connection Points -->
-        <circle cx="200" cy="200" r="4" fill="#1c00ff" />
-        <circle cx="280" cy="200" r="4" fill="#1c00ff" />
-        <circle cx="400" cy="180" r="4" fill="#1c00ff" />
-        <circle cx="400" cy="200" r="4" fill="#1c00ff" />
-        <circle cx="400" cy="220" r="4" fill="#1c00ff" />
-        <circle cx="500" cy="72" r="4" fill="#1c00ff" />
-        <circle cx="500" cy="200" r="4" fill="#1c00ff" />
-        <circle cx="500" cy="312" r="4" fill="#1c00ff" />
 
         <!-- iOS-style Notification -->
         <g transform="translate(30, 160)">
