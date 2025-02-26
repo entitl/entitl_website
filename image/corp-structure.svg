@@ -56,8 +56,9 @@
         <rect x="0" y="0" width="200" height="100" rx="10"
               fill="url(#boxGradient)"
               filter="url(#shadow)" />
-        <text x="100" y="30" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="16" font-weight="bold">Entitl Data Private Limited</text>
+        <text x="100" y="30" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="16" font-weight="bold">Entitl Data Pvt. Ltd.</text>
         <text x="100" y="50" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="14">India</text>
+        <text x="100" y="70" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="12">PAN: AAICE6731B</text>
     </g>
 
     <!-- 100% Ownership Labels -->
