@@ -58,7 +58,7 @@
               filter="url(#shadow)" />
         <text x="100" y="30" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="16" font-weight="bold">Entitl Data Pvt. Ltd.</text>
         <text x="100" y="50" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="14">India</text>
-        <text x="100" y="70" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="12">PAN: AAICE6731B</text>
+        <text x="100" y="70" text-anchor="middle" fill="white" font-family="Roboto, sans-serif" font-size="12">CIN: U62013KA2025FTC198470</text>
     </g>
 
     <!-- 100% Ownership Labels -->
