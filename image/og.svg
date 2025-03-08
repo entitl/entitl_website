@@ -1,12 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
-    <!-- Container with border -->
-    <rect x="10" y="20" width="580" height="360" rx="10" fill="#F8F9FF" stroke="#1c00ff" stroke-width="1.5" opacity="0.3"/>
-
+    <!-- Container with border and background together -->
+    <rect x="10" y="20" width="580" height="360" rx="10" fill="#F8F9FF" stroke="#1c00ff" stroke-width="1.5" opacity="1"/>
+    
     <!-- All elements shifted to be centered within the container -->
     <g transform="translate(10, 0)">
-        <!-- Background -->
-        <rect x="20" y="20" width="560" height="360" rx="10" fill="#F8F9FF"/>
-
         <!-- Connection lines - solid for API, dashed for publishers -->
         <g id="connections">
             <!-- Mobile to Hub connection -->
