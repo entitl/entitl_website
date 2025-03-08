@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
     <!-- Container with border -->
-    <rect x="20" y="20" width="560" height="360" rx="10" fill="var(--background-primary, #F8F9FF)" stroke="var(--primary, #1c00ff)" stroke-width="1.5" opacity="0.3"/>
+    <rect x="10" y="20" width="580" height="360" rx="10" fill="#F8F9FF" stroke="#1c00ff" stroke-width="1.5" opacity="0.3"/>
 
     <!-- All elements shifted to be centered within the container -->
-    <g transform="translate(0, 0)">
+    <g transform="translate(10, 0)">
         <!-- Background -->
-        <rect x="20" y="20" width="560" height="360" rx="10" fill="var(--background-primary, #F8F9FF)"/>
+        <rect x="20" y="20" width="560" height="360" rx="10" fill="#F8F9FF"/>
 
         <!-- Connection lines - solid for API, dashed for publishers -->
         <g id="connections">
             <!-- Mobile to Hub connection -->
-            <line x1="190" y1="200" x2="290" y2="200" stroke="var(--primary, #1c00ff)" stroke-width="1.5" />
+            <line x1="190" y1="200" x2="290" y2="200" stroke="#1c00ff" stroke-width="1.5" />
 
             <!-- Adding the three boxes from other connections to this line -->
-            <rect x="220" y="192.5" width="15" height="15" fill="var(--text-primary, #0f172a)" opacity="0.9"/>
-            <rect x="235" y="192.5" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="250" y="192.5" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
+            <rect x="220" y="192.5" width="15" height="15" fill="#0f172a" opacity="0.9"/>
+            <rect x="235" y="192.5" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="250" y="192.5" width="15" height="15" fill="#334155" opacity="0.9"/>
 
             <!-- Hub to Publishers connections -->
-            <line x1="410" y1="180" x2="500" y2="72" stroke="var(--primary, #1c00ff)" stroke-width="1.5"/>
-            <line x1="410" y1="200" x2="500" y2="200" stroke="var(--primary, #1c00ff)" stroke-width="1.5"/>
-            <line x1="410" y1="220" x2="500" y2="312" stroke="var(--primary, #1c00ff)" stroke-width="1.5"/>
+            <line x1="410" y1="180" x2="500" y2="72" stroke="#1c00ff" stroke-width="1.5"/>
+            <line x1="410" y1="200" x2="500" y2="200" stroke="#1c00ff" stroke-width="1.5"/>
+            <line x1="410" y1="220" x2="500" y2="312" stroke="#1c00ff" stroke-width="1.5"/>
 
             <!-- Adding single boxes from each logo's pattern onto the connection lines -->
-            <rect x="440" y="127" width="15" height="15" fill="var(--text-primary, #0f172a)" opacity="0.9"/>
-            <rect x="440" y="192.5" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="440" y="252" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
+            <rect x="440" y="127" width="15" height="15" fill="#0f172a" opacity="0.9"/>
+            <rect x="440" y="192.5" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="440" y="252" width="15" height="15" fill="#334155" opacity="0.9"/>
         </g>
 
         <!-- iOS-style Notification -->
         <g transform="translate(30, 160)">
             <!-- Notification Background -->
-            <rect x="0" y="0" width="160" height="80" rx="14" fill="var(--text-primary, #0f172a)" opacity="0.95"/>
+            <rect x="0" y="0" width="160" height="80" rx="14" fill="#0f172a" opacity="0.95"/>
 
             <!-- App Icon -->
-            <rect x="8" y="16" width="28" height="28" rx="6" fill="var(--primary, #1c00ff)"/>
-            <text x="22" y="35" text-anchor="middle" fill="var(--background-white, #FFFFFF)" font-family="Roboto" font-size="16" font-weight="bold">AI</text>
+            <rect x="8" y="16" width="28" height="28" rx="6" fill="#1c00ff"/>
+            <text x="22" y="35" text-anchor="middle" fill="#FFFFFF" font-family="Roboto" font-size="16" font-weight="bold">AI</text>
 
             <!-- Notification Content -->
-            <text x="44" y="28" fill="var(--background-white, #FFFFFF)" font-family="system-ui, -apple-system" font-size="12" font-weight="600">Personalized Feed</text>
+            <text x="44" y="28" fill="#FFFFFF" font-family="system-ui, -apple-system" font-size="12" font-weight="600">Personalized Feed</text>
 
             <!-- Wrapped Message Content -->
-            <text x="44" y="42" fill="var(--background-white, #FFFFFF)" font-family="system-ui, -apple-system" font-size="11">
+            <text x="44" y="42" fill="#FFFFFF" font-family="system-ui, -apple-system" font-size="11">
                 <tspan x="44" dy="0">-----------</tspan>
                 <tspan x="44" dy="13">--------------</tspan>
                 <tspan x="44" dy="13">-------</tspan>
@@ -51,85 +51,56 @@
 
         <!-- Central Licensing Exchange Hub -->
         <g transform="translate(30,0)">
-            <circle cx="320" cy="200" r="60" fill="var(--primary, #1c00ff)" opacity="0.7" />
-            <circle cx="320" cy="200" r="45" fill="var(--primary, #1c00ff)" opacity="0.8" />
-            <circle cx="320" cy="200" r="30" fill="var(--primary, #1c00ff)" opacity="0.9" />
-            <text x="320" y="200" text-anchor="middle" dominant-baseline="central" fill="var(--background-white, #FFFFFF)" font-family="Impact, sans-serif" font-size="16">Entitl</text>
+            <circle cx="320" cy="200" r="60" fill="#1c00ff" opacity="0.7" />
+            <circle cx="320" cy="200" r="45" fill="#1c00ff" opacity="0.8" />
+            <circle cx="320" cy="200" r="30" fill="#1c00ff" opacity="0.9" />
+            <text x="320" y="200" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF" font-family="Impact, sans-serif" font-size="16">Entitl</text>
         </g>
 
         <!-- Bloomberg-style Logo -->
         <g transform="translate(500, 50)">
-            <rect x="0" y="0" width="45" height="45" fill="var(--primary, #1c00ff)" opacity="0.1"/>
-            <rect x="0" y="0" width="15" height="15" fill="var(--text-primary, #0f172a)" opacity="0.9"/>
-            <rect x="15" y="0" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="30" y="0" width="15" height="15" fill="var(--text-primary, #0f172a)" opacity="0.9"/>
-            <rect x="0" y="15" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="15" y="15" width="15" height="15" fill="var(--text-primary, #0f172a)" opacity="0.9"/>
-            <rect x="30" y="15" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="0" y="30" width="15" height="15" fill="var(--text-primary, #0f172a)" opacity="0.9"/>
-            <rect x="15" y="30" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="30" y="30" width="15" height="15" fill="var(--text-primary, #0f172a)" opacity="0.9"/>
-            <text x="22.5" y="30" text-anchor="middle" dominantBaseline="middle" fill="var(--background-white, #FFFFFF)" font-family="Roboto" font-size="28" font-weight="bold">B</text>
+            <rect x="0" y="0" width="45" height="45" fill="#1c00ff" opacity="0.1"/>
+            <rect x="0" y="0" width="15" height="15" fill="#0f172a" opacity="0.9"/>
+            <rect x="15" y="0" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="30" y="0" width="15" height="15" fill="#0f172a" opacity="0.9"/>
+            <rect x="0" y="15" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="15" y="15" width="15" height="15" fill="#0f172a" opacity="0.9"/>
+            <rect x="30" y="15" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="0" y="30" width="15" height="15" fill="#0f172a" opacity="0.9"/>
+            <rect x="15" y="30" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="30" y="30" width="15" height="15" fill="#0f172a" opacity="0.9"/>
+            <text x="22.5" y="30" text-anchor="middle" dominant-baseline="middle" fill="#FFFFFF" font-family="Roboto" font-size="28" font-weight="bold">B</text>
         </g>
 
         <!-- WSJ-style Logo -->
         <g transform="translate(500, 177)">
-            <rect x="0" y="0" width="45" height="45" fill="var(--primary, #1c00ff)" opacity="0.1"/>
-            <rect x="0" y="0" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="15" y="0" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="30" y="0" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="0" y="15" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="15" y="15" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="30" y="15" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="0" y="30" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <rect x="15" y="30" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="30" y="30" width="15" height="15" fill="var(--text-secondary, #1e293b)" opacity="0.9"/>
-            <text x="22.5" y="25" text-anchor="middle" dominantBaseline="middle" fill="var(--background-white, #FFFFFF)" font-family="Roboto" font-size="18" font-weight="bold">WSJ</text>
-            <line x1="10" y1="32" x2="35" y2="32" stroke="var(--background-white, #FFFFFF)" stroke-width="1"/>
+            <rect x="0" y="0" width="45" height="45" fill="#1c00ff" opacity="0.1"/>
+            <rect x="0" y="0" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="15" y="0" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="30" y="0" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="0" y="15" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="15" y="15" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="30" y="15" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="0" y="30" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <rect x="15" y="30" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="30" y="30" width="15" height="15" fill="#1e293b" opacity="0.9"/>
+            <text x="22.5" y="25" text-anchor="middle" dominant-baseline="middle" fill="#FFFFFF" font-family="Roboto" font-size="18" font-weight="bold">WSJ</text>
+            <line x1="10" y1="32" x2="35" y2="32" stroke="#FFFFFF" stroke-width="1"/>
         </g>
 
         <!-- Reuters Logo -->
         <g transform="translate(500, 290)">
-            <rect x="0" y="0" width="45" height="45" fill="var(--primary, #1c00ff)" opacity="0.1"/>
-            <rect x="0" y="0" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="15" y="0" width="15" height="15" fill="var(--text-quaternary, #475569)" opacity="0.9"/>
-            <rect x="30" y="0" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="0" y="15" width="15" height="15" fill="var(--text-quaternary, #475569)" opacity="0.9"/>
-            <rect x="15" y="15" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="30" y="15" width="15" height="15" fill="var(--text-quaternary, #475569)" opacity="0.9"/>
-            <rect x="0" y="30" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <rect x="15" y="30" width="15" height="15" fill="var(--text-quaternary, #475569)" opacity="0.9"/>
-            <rect x="30" y="30" width="15" height="15" fill="var(--text-tertiary, #334155)" opacity="0.9"/>
-            <text x="22.5" y="30" text-anchor="middle" dominantBaseline="middle" fill="var(--background-white, #FFFFFF)" font-family="Roboto" font-size="28" font-weight="bold">ℝ</text>
+            <rect x="0" y="0" width="45" height="45" fill="#1c00ff" opacity="0.1"/>
+            <rect x="0" y="0" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="15" y="0" width="15" height="15" fill="#475569" opacity="0.9"/>
+            <rect x="30" y="0" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="0" y="15" width="15" height="15" fill="#475569" opacity="0.9"/>
+            <rect x="15" y="15" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="30" y="15" width="15" height="15" fill="#475569" opacity="0.9"/>
+            <rect x="0" y="30" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <rect x="15" y="30" width="15" height="15" fill="#475569" opacity="0.9"/>
+            <rect x="30" y="30" width="15" height="15" fill="#334155" opacity="0.9"/>
+            <text x="22.5" y="30" text-anchor="middle" dominant-baseline="middle" fill="#FFFFFF" font-family="Roboto" font-size="28" font-weight="bold">ℝ</text>
         </g>
     </g>
-
-    <style>
-    :root {
-        /* Primary Colors */
-        --primary: #1c00ff;
-        --primary-hover: #2c5282;
-
-        /* Background Colors */
-        --background-primary: #F8F9FF;
-        --background-white: #FFFFFF;
-
-        /* Text Colors */
-        --text-primary: #0f172a;
-        --text-secondary: #1e293b;
-        --text-tertiary: #334155;
-        --text-quaternary: #475569;
-
-        /* Overlay/Shadow Colors */
-        --overlay-light: rgba(49, 130, 206, 0.05);
-        --overlay-medium: rgba(49, 130, 206, 0.1);
-        --overlay-dark: rgba(30, 41, 59, 0.1);
-        --shadow-color: rgba(30, 41, 59, 0.3);
-        --shadow-button: rgba(49, 130, 206, 0.3);
-
-        /* Gradient Components */
-        --gradient-overlay: rgba(255, 255, 255, 0.2);
-        --gradient-transparent: transparent;
-    }
-    </style>
 </svg>
